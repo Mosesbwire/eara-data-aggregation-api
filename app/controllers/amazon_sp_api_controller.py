@@ -1,7 +1,7 @@
 from flask import request,jsonify
 
-from app.clients.amazon_sp_client import AmazonSPClient
-from app.services.amazon_sp_api_service import AmazonSPService
+from clients.amazon_sp_client import AmazonSPClient
+from services.amazon_sp_api_service import AmazonSPService
 
 amazon_sp_client = AmazonSPClient()
 amazon_sp_service = AmazonSPService(amazon_sp_client)
