@@ -1,4 +1,4 @@
-from api.v1.routes import all_blueprints
+from app.api.v1.routes import all_blueprints
 from flask import Flask
 from flask_cors import CORS
 import sys

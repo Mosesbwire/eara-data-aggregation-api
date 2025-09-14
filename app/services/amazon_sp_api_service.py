@@ -1,4 +1,4 @@
-from clients.amazon_sp_client import AmazonSPClient
+from app.clients.amazon_sp_client import AmazonSPClient
 
 class AmazonSPService:
     def __init__(self, client: AmazonSPClient):
